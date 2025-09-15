@@ -10,6 +10,8 @@ Data Architecture
 Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+<img width="949" height="476" alt="image" src="https://github.com/user-attachments/assets/0971bc2f-63a5-4085-9c07-aab74da8c314" />
+
 
 📖 Project Overview
 This project involves:
