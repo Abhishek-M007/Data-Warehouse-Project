@@ -1,3 +1,4 @@
+WARNINGS
 */ This code will remove the existing database of the same name and create the following database.so please ensure you have the proper backups */
 
 USE master;
