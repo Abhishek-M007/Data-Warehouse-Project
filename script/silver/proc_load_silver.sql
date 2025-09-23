@@ -42,7 +42,7 @@ BEGIN
 			cst_firstname, 
 			cst_lastname, 
 			cst_marital_status, 
-			cst_gndr,
+			cst_gender,
 			cst_create_date
 		)
 		SELECT
@@ -56,10 +56,10 @@ BEGIN
 				ELSE 'n/a'
 			END AS cst_marital_status, -- Normalize marital status values to readable format
 			CASE 
-				WHEN UPPER(TRIM(cst_gndr)) = 'F' THEN 'Female'
-				WHEN UPPER(TRIM(cst_gndr)) = 'M' THEN 'Male'
+				WHEN UPPER(TRIM(cst_gender)) = 'F' THEN 'Female'
+				WHEN UPPER(TRIM(cst_gender)) = 'M' THEN 'Male'
 				ELSE 'n/a'
-			END AS cst_gndr, -- Normalize gender values to readable format
+			END AS cst_gender, -- Normalize gender values to readable format
 			cst_create_date
 		FROM (
 			SELECT
