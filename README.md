@@ -69,7 +69,6 @@ data-warehouse-project/
 │   ├── data_layers.pdf                 # Data layers and planning
 │   ├── data_models.jpg                 # Data models (star schema)
 │   ├── facts&dimensions.jpg            # Facts and Dimensions Diagram
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
@@ -81,7 +80,6 @@ data-warehouse-project/
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
 ```
 ---
 
